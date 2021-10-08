@@ -1,0 +1,72 @@
+.office-image{
+  background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWptHL?ver=f9a8&q=90&m=2&h=768&w=1024&b=%23FFFFFFFF&aim=true") hsl(277,64%,61%)no-repeat;
+ min-height: 20rem;
+ background-size: cover;
+ background-blend-mode: luminosity;
+}
+.insight{
+ color: hsl(277,64%,61%);
+}
+.card-social-media{
+ display:flex;
+ flex-direction:column;
+     align-items: center;
+ text-align:center;
+}
+section{
+ background: hsl(244,38%,16%);
+ color:white;
+  text-align:center;
+ border-radius:2rem;
+ overflow:hidden;
+}
+.card-count{
+ font-weight:bold;
+ font-size: 1.3rem;
+ margin-bottom: 5px;
+}
+.card-count +p{
+ text-transform:uppercase;
+ font-size: 0.8rem;
+ margin:0;
+ letter-spacing:2px;
+}
+.card-content{
+ padding:2rem;
+}
+body{
+ font-family:'Lexend Deca', sans-serif;
+ height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+.card-info, .card-count +p{
+ font-weight:80;
+
+}
+background-image: linear-gradient(
+to right top,
+color:blue;
+);
+.card-info{
+   font-size:0.9rem; 
+}
+
+
+
+@media (min-width:570px){
+ section{
+   display:flex;
+   flex-direction:row-reverse;
+   text-aling:left;
+   max-width:45rem;
+ }
+ .office-image{
+   min-width:15rem;
+ }
+ .card-social-media {
+   flex-direction:row;
+   justify-content:space-between;
+ }
+}
